@@ -170,9 +170,8 @@ footer {
         margin-top: 1%;
   }
 }
-     @media only screen and (max-width: 150px) {
+     @media(max-width: 320px) {
        footer {
-    position: fixed;
     position: absolute;
     left: 0;
     bottom: 0;
