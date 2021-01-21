@@ -170,4 +170,19 @@ footer {
         margin-top: 1%;
   }
 }
+     @media only screen and (max-width: 150px) {
+       footer {
+    position: fixed;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 99%;
+    width: 100%;
+    color: rgb(54, 54, 54);
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+  }
+      
+      }
 }
